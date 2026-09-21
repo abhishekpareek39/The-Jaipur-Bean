@@ -36,6 +36,7 @@
 </header>
 
 <main class="flex-grow">
+    
 <!-- Hero Section -->
 <section class="relative bg-amber-950 text-stone-100 py-24 lg:py-36 bg-cover bg-center" style="background-image: linear-gradient(rgba(28, 19, 8, 0.75), rgba(28, 19, 8, 0.85)), url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1920');">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -45,6 +46,123 @@
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="menu.html" class="w-full sm:w-auto bg-amber-600 hover:bg-amber-700 text-stone-50 px-8 py-3.5 rounded font-bold tracking-wide transition-colors shadow-md text-center">Explore Our Menu</a>
             <a href="contact.html" class="w-full sm:w-auto border-2 border-stone-300 hover:border-amber-400 hover:text-amber-400 text-stone-100 px-8 py-3.5 rounded font-bold tracking-wide transition-all text-center">Find Our Cafe</a>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us Section -->
+<section class="py-20 bg-stone-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-14">
+            <h2 class="text-3xl sm:text-4xl font-bold text-stone-900 mb-4">Why Coffee Lovers Choose Us</h2>
+            <div class="w-16 h-1 bg-amber-600 mx-auto"></div>
+        </div>
+        <div class="flex flex-col lg:flex-row items-stretch justify-between gap-8">
+            <div class="flex-1 bg-stone-50 p-8 rounded-lg shadow-sm border border-stone-200/60 flex flex-col items-center text-center">
+                <div class="w-16 h-16 bg-amber-950/5 text-amber-800 rounded-full flex items-center justify-center text-3xl mb-6">🌱</div>
+                <h3 class="font-serif text-xl font-bold text-stone-900 mb-3">100% Organic Specialty Beans</h3>
+                <p class="text-sm text-stone-600 leading-relaxed">We source premium single-origin Arabica beans directly from sustainable, shade-grown family estates in Chikmagalur and the Araku Valley.</p>
+            </div>
+            <div class="flex-1 bg-stone-50 p-8 rounded-lg shadow-sm border border-stone-200/60 flex flex-col items-center text-center">
+                <div class="w-16 h-16 bg-amber-950/5 text-amber-800 rounded-full flex items-center justify-center text-3xl mb-6">☕</div>
+                <h3 class="font-serif text-xl font-bold text-stone-900 mb-3">Craft Roasting & Precision</h3>
+                <p class="text-sm text-stone-600 leading-relaxed">Our certified baristas fine-tune extraction parameters daily, ensuring peak aromatic expressions across manual pour-overs and classic espressos.</p>
+            </div>
+            <div class="flex-1 bg-stone-50 p-8 rounded-lg shadow-sm border border-stone-200/60 flex flex-col items-center text-center">
+                <div class="w-16 h-16 bg-amber-950/5 text-amber-800 rounded-full flex items-center justify-center text-3xl mb-6">🏺</div>
+                <h3 class="font-serif text-xl font-bold text-stone-900 mb-3">Authentic Jaipur Aesthetics</h3>
+                <p class="text-sm text-stone-600 leading-relaxed">Relax inside a beautiful, architecturally designed space decorated with locally sourced pink terracotta arches, cane furniture, and lush foliage.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Highlights (Cards / Pricing table style) -->
+<section class="py-20 bg-stone-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-14">
+            <h2 class="text-3xl sm:text-4xl font-bold text-stone-900 mb-4">Today's House Specialties</h2>
+            <p class="text-sm text-stone-600 max-w-md mx-auto">Hand-picked seasonal client favorites freshly handcrafted this afternoon.</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Item 1 -->
+            <div class="bg-stone-100 rounded-lg overflow-hidden shadow-sm border border-stone-200 group">
+                <div class="h-56 bg-stone-200 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&q=80&w=600" alt="Rose Espresso Tonic" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <span class="absolute top-4 right-4 bg-amber-950 text-amber-400 px-3 py-1 text-xs font-bold rounded">Bestseller</span>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="font-serif text-xl font-bold text-stone-900">Rose Espresso Tonic</h3>
+                        <span class="text-amber-800 font-bold text-lg">&#8377;240</span>
+                    </div>
+                    <p class="text-xs text-stone-600 leading-relaxed mb-4">A refreshing double shot of espresso layered over crisp tonic water and a delicate splash of organic local rose syrup.</p>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="bg-stone-100 rounded-lg overflow-hidden shadow-sm border border-stone-200 group">
+                <div class="h-56 bg-stone-200 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600" alt="Jaipur Cappuccino" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="font-serif text-xl font-bold text-stone-900">Jaipur Gold Cappuccino</h3>
+                        <span class="text-amber-800 font-bold text-lg">&#8377;260</span>
+                    </div>
+                    <p class="text-xs text-stone-600 leading-relaxed mb-4">Rich espresso blended with silky smooth textured milk, gently dusted with premium organic cardamom powder and edible gold leaf flags.</p>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="bg-stone-100 rounded-lg overflow-hidden shadow-sm border border-stone-200 group">
+                <div class="h-56 bg-stone-200 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1600431521340-491eca880813?auto=format&fit=crop&q=80&w=600" alt="Saffron Pistachio Croissant" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                    <span class="absolute top-4 right-4 bg-amber-600 text-stone-50 px-3 py-1 text-xs font-bold rounded">Fresh Baked</span>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="font-serif text-xl font-bold text-stone-900">Saffron Pistachio Tart</h3>
+                        <span class="text-amber-800 font-bold text-lg">&#8377;290</span>
+                    </div>
+                    <p class="text-xs text-stone-600 leading-relaxed mb-4">Flaky butter-laminated pastry base loaded with a rich house-made Iranian saffron pastry cream and crunchy crushed roasted pistachios.</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-12">
+            <a href="menu.html" class="inline-block bg-amber-950 hover:bg-amber-900 text-amber-400 px-8 py-3.5 rounded font-bold tracking-wide transition-colors">View Entire Cafe Menu</a>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="py-20 bg-stone-900 text-stone-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-14">
+            <span class="text-amber-400 font-semibold tracking-widest uppercase text-xs block mb-2">Reviews</span>
+            <h2 class="text-3xl sm:text-4xl font-bold">What Our Guests Say</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div class="bg-stone-800 p-8 rounded-lg border border-stone-700/60 relative">
+                <span class="text-6xl text-amber-800 font-serif absolute top-4 left-4 opacity-20">“</span>
+                <p class="text-sm text-stone-300 leading-relaxed mb-6 relative z-10 font-light">"The Jaipur Bean has officially become my favorite hybrid remote working spot in C-Scheme. Their cold brews are remarkably clean and robust, and the atmosphere feels deeply relaxing compared to busy mainstream chains."</p>
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-amber-700 rounded-full flex items-center justify-center font-bold text-sm text-stone-100">A.S</div>
+                    <div>
+                        <h4 class="font-semibold text-stone-100 text-sm">Ananya Sharma</h4>
+                        <p class="text-xs text-stone-400">Jaipur Food Blogger</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-stone-800 p-8 rounded-lg border border-stone-700/60 relative">
+                <span class="text-6xl text-amber-800 font-serif absolute top-4 left-4 opacity-20">“</span>
+                <p class="text-sm text-stone-300 leading-relaxed mb-6 relative z-10 font-light">"Sensational hospitality and world-class coffee standards right in the heart of Rajasthan. Their saffron-infused pastries paired with a perfectly pulled light roast pour-over espresso is an incredible combination."</p>
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-amber-700 rounded-full flex items-center justify-center font-bold text-sm text-stone-100">R.M</div>
+                    <div>
+                        <h4 class="font-semibold text-stone-100 text-sm">Rahul Mehta</h4>
+                        <p class="text-xs text-stone-400">Google Local Guide</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
